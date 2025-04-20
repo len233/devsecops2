@@ -40,7 +40,7 @@ spec:
   ports:
     - port: 80
       protocol: TCP
-      targetPort: 8080
+      targetPort: 8086
       name: http
   selector:
     app: rentalservice
